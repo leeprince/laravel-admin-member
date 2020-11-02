@@ -7,8 +7,12 @@
 return [
     'table' => [
         'member' => 'admin_member',
-        'account' => 'admin_member_account',
-        'transaction_record' => 'admin_member_transaction_record',
-        'order' => 'admin_order',
+        'member_info' => 'admin_member_info',
+    ],
+    'route' => [
+        'namespace' => 'LeePrince\\MinprogramMember\\Http\\Controllers'
+    ],
+    'root' => [
+        'namespace' => 'LeePrince\\MinprogramMember'
     ]
 ];
