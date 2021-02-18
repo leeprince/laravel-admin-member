@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86a2ea554afd68d58cf33d5bd21dc3b6",
+    "content-hash": "2acb99027d07942d70775480c328d2bc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -777,16 +777,16 @@
         },
         {
             "name": "encore/laravel-admin",
-            "version": "v1.8.6",
+            "version": "v1.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/z-song/laravel-admin.git",
-                "reference": "e3060ea62e6f625d0daf92ae5ef721469851c587"
+                "reference": "6ddd381a9f4928b6c2175dea297e6a8b385d8d28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/e3060ea62e6f625d0daf92ae5ef721469851c587",
-                "reference": "e3060ea62e6f625d0daf92ae5ef721469851c587",
+                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/6ddd381a9f4928b6c2175dea297e6a8b385d8d28",
+                "reference": "6ddd381a9f4928b6c2175dea297e6a8b385d8d28",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -849,7 +849,7 @@
                 "grid",
                 "laravel"
             ],
-            "time": "2020-09-27T03:07:05+00:00"
+            "time": "2020-11-15T02:55:51+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1791,12 +1791,24 @@
             "time": "2020-10-18T11:50:25+00:00"
         },
         {
-            "name": "leeprince/laravel-admin-member",
+            "name": "leeprince/laravel-admin-composer-member",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leeprince/laravel-admin-composer-member.git",
+                "reference": "2114efc9150b2a57e4e5dc04cfa77cc0ad906dee"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/leeprince/www/composer/laravel-admin-minprogram-member",
-                "reference": "cf0ea180ec6cb1d93adcaa7b2d0669a6cbd2f15d"
+                "type": "zip",
+                "url": "https://api.github.com/repos/leeprince/laravel-admin-composer-member/zipball/2114efc9150b2a57e4e5dc04cfa77cc0ad906dee",
+                "reference": "2114efc9150b2a57e4e5dc04cfa77cc0ad906dee",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "type": "library",
             "extra": {
@@ -1811,16 +1823,18 @@
                     "LeePrince\\MinprogramMember\\": "./src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "leeprince",
                     "email": "leeprince@foxmail.com"
                 }
             ],
-            "description": "基于laravel-admin的小程序会员系统",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "基于laravel-admin的小程序会员系统的组件",
+            "time": "2021-02-18T04:45:36+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -6025,6 +6039,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
@@ -8219,12 +8234,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": "",
                 "mirrors": [
@@ -8273,7 +8288,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "leeprince/laravel-admin-member": 20
+        "leeprince/laravel-admin-composer-member": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
